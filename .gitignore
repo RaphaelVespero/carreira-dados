@@ -1,0 +1,25 @@
+# Segredos e configurações locais (nunca publicar)
+.env
+*.env
+credenciais*
+
+# Dados brutos grandes ou privados (publique só amostras pequenas e públicas)
+dados/brutos/
+*.bak
+*.dump
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Power BI (arquivos temporários)
+*.pbix.bak
+~$*
+
+# Windows / editores
+Thumbs.db
+desktop.ini
+.vscode/
